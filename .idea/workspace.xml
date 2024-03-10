@@ -10,10 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96a5f842-27ce-4784-8d44-2bbf14bd0f33" name="Default Changelist" comment="HM WEEK-2 COMMIT">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/MyJsp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/MyJsp.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WuYuying2022211001000431-1.0-SNAPSHOT/MyJsp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/WuYuying2022211001000431-1.0-SNAPSHOT/MyJsp.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WuYuying2022211001000431-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/WuYuying2022211001000431-1.0-SNAPSHOT/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710084662334</updated>
-      <workItem from="1710084664169" duration="469000" />
+      <workItem from="1710084664169" duration="608000" />
     </task>
     <task id="LOCAL-00001" summary="HM WEEK-2 COMMIT">
       <created>1710084712366</created>
@@ -98,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710084712366</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="HM WEEK-2 COMMIT">
+      <created>1710085168969</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710085168969</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

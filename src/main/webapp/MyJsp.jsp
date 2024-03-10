@@ -16,7 +16,6 @@
     ID :<input type="text" name="id"><br/>
     <%java.util.Date date=new java.util.Date();%>
     DATE AND TIME <%=date%>
-
 </form>
 
 </body>
