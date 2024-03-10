@@ -10,13 +10,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96a5f842-27ce-4784-8d44-2bbf14bd0f33" name="Default Changelist" comment="HM WEEK-2 COMMIT">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ex2.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/MyJsp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/MyJsp.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WuYuying2022211001000431-1.0-SNAPSHOT/MyJsp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/WuYuying2022211001000431-1.0-SNAPSHOT/MyJsp.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,6 +46,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -98,7 +112,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710084662334</updated>
-      <workItem from="1710084664169" duration="771000" />
+      <workItem from="1710084664169" duration="2503000" />
     </task>
     <task id="LOCAL-00001" summary="HM WEEK-2 COMMIT">
       <created>1710084712366</created>
@@ -121,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710085293186</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="HM WEEK-2 COMMIT">
+      <created>1710085464366</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710085464366</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

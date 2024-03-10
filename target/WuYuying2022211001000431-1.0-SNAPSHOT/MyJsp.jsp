@@ -11,13 +11,12 @@
     <title>Title</title>
 </head>
 <body>
-<form method="get"><!--what is method when we use from?-->
+    <form method="get">
     Name :<input type="text" name="name"><br/>
     ID :<input type="text" name="id"><br/>
     <%java.util.Date date=new java.util.Date();%>
     DATE AND TIME <%=date%>
-
-</form>
+    </form>
 
 </body>
 </html>
