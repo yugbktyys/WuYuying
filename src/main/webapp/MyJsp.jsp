@@ -11,10 +11,12 @@
     <title>Title</title>
 </head>
 <body>
-<a href="https://www.ecjtu.edu.cn/?ecjtu.cn">go to ecjtu</a>
 <form method="get"><!--what is method when we use from?-->
     Name :<input type="text" name="name"><br/>
     ID :<input type="text" name="id"><br/>
+    <%java.util.Date date=new java.util.Date();%>
+    DATE AND TIME <%=date%>
+
 </form>
 
 </body>
