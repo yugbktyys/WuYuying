@@ -9,10 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96a5f842-27ce-4784-8d44-2bbf14bd0f33" name="Default Changelist" comment="HM WEEK-2 COMMIT">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/ex2.jsp" afterDir="false" />
+    <list default="true" id="1dbb3c58-c057-47de-92aa-628d7b34677a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/MyJsp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/MyJsp.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ex2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ex2.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/WuYuying2022211001000431-1.0-SNAPSHOT/MyJsp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/WuYuying2022211001000431-1.0-SNAPSHOT/MyJsp.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WuYuying2022211001000431-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/WuYuying2022211001000431-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WuYuying2022211001000431-1.0-SNAPSHOT/ex2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/WuYuying2022211001000431-1.0-SNAPSHOT/ex2.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +40,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectId" id="2dVE5VUf83QBmTsvjZZPWl03CRF" />
+  <component name="ProjectId" id="2dlEeBo9oS0X3C8mAQqMDfBU3GE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -74,7 +78,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="dd3fe520-6f0a-4e7c-a38b-faf174121cc4" />
+        <option name="BASE_DIRECTORY_NAME" value="a397338a-f00a-45db-848f-98fc8fe16e2f" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -107,60 +111,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="96a5f842-27ce-4784-8d44-2bbf14bd0f33" name="Default Changelist" comment="" />
-      <created>1710084662334</created>
+      <changelist id="1dbb3c58-c057-47de-92aa-628d7b34677a" name="Default Changelist" comment="" />
+      <created>1710574359158</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1710084662334</updated>
-      <workItem from="1710084664169" duration="2503000" />
+      <updated>1710574359158</updated>
+      <workItem from="1710574362549" duration="7898000" />
     </task>
-    <task id="LOCAL-00001" summary="HM WEEK-2 COMMIT">
-      <created>1710084712366</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1710084712366</updated>
-    </task>
-    <task id="LOCAL-00002" summary="HM WEEK-2 COMMIT">
-      <created>1710085168969</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1710085168969</updated>
-    </task>
-    <task id="LOCAL-00003" summary="HM WEEK-2 COMMIT">
-      <created>1710085293186</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1710085293186</updated>
-    </task>
-    <task id="LOCAL-00004" summary="HM WEEK-2 COMMIT">
-      <created>1710085464366</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1710085464366</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="HM WEEK-2 COMMIT" />
-    <option name="LAST_COMMIT_MESSAGE" value="HM WEEK-2 COMMIT" />
   </component>
 </project>
