@@ -9,21 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf244841-460f-42b6-bf08-f8da64c3dac7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/WuYuying/week2/demo/HelloWorldServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/WuYuying/week2/demo/HelloWorldServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/WuYuying/week3/demo/LifeCycleServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/WuYuying/week3/demo/LifeCycleServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/WuYuying/week3/demo/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/WuYuying/week3/demo/RegisterServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WuYuying2022211001000431-1.0-SNAPSHOT/WEB-INF/classes/com/WuYuying/week3/demo/LifeCycleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WuYuying2022211001000431-1.0-SNAPSHOT/WEB-INF/classes/com/WuYuying/week3/demo/LifeCycleServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WuYuying2022211001000431-1.0-SNAPSHOT/WEB-INF/classes/com/WuYuying/week3/demo/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WuYuying2022211001000431-1.0-SNAPSHOT/WEB-INF/classes/com/WuYuying/week3/demo/RegisterServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WuYuying2022211001000431-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/WuYuying2022211001000431-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WuYuying2022211001000431-1.0-SNAPSHOT/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/WuYuying2022211001000431-1.0-SNAPSHOT/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/WuYuying/week3/demo/LifeCycleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WuYuying/week3/demo/LifeCycleServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/WuYuying/week3/demo/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WuYuying/week3/demo/RegisterServlet.class" afterDir="false" />
-    </list>
+    <list default="true" id="bf244841-460f-42b6-bf08-f8da64c3dac7" name="Default Changelist" comment="WEEK4-HM" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,8 +113,16 @@
       <option name="presentableId" value="Default" />
       <updated>1711253226955</updated>
       <workItem from="1711253230354" duration="16707000" />
-      <workItem from="1711348372817" duration="12874000" />
+      <workItem from="1711348372817" duration="13172000" />
     </task>
+    <task id="LOCAL-00001" summary="WEEK4-HM">
+      <created>1711381314579</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711381314579</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,5 +138,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="WEEK4-HM" />
+    <option name="LAST_COMMIT_MESSAGE" value="WEEK4-HM" />
   </component>
 </project>
