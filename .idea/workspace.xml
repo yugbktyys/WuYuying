@@ -9,14 +9,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dbb3c58-c057-47de-92aa-628d7b34677a" name="Default Changelist" comment="">
+    <list default="true" id="bf244841-460f-42b6-bf08-f8da64c3dac7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/MyJsp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/MyJsp.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/WuYuying/week2/demo/HelloWorldServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/WuYuying/week2/demo/HelloWorldServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/WuYuying/week3/demo/LifeCycleServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/WuYuying/week3/demo/LifeCycleServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/WuYuying/week3/demo/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/WuYuying/week3/demo/RegisterServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/ex2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ex2.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WuYuying2022211001000431-1.0-SNAPSHOT/MyJsp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/WuYuying2022211001000431-1.0-SNAPSHOT/MyJsp.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WuYuying2022211001000431-1.0-SNAPSHOT/WEB-INF/classes/com/WuYuying/week3/demo/LifeCycleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WuYuying2022211001000431-1.0-SNAPSHOT/WEB-INF/classes/com/WuYuying/week3/demo/LifeCycleServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WuYuying2022211001000431-1.0-SNAPSHOT/WEB-INF/classes/com/WuYuying/week3/demo/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WuYuying2022211001000431-1.0-SNAPSHOT/WEB-INF/classes/com/WuYuying/week3/demo/RegisterServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/WuYuying2022211001000431-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/WuYuying2022211001000431-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WuYuying2022211001000431-1.0-SNAPSHOT/ex2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/WuYuying2022211001000431-1.0-SNAPSHOT/ex2.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WuYuying2022211001000431-1.0-SNAPSHOT/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/WuYuying2022211001000431-1.0-SNAPSHOT/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WuYuying/week3/demo/LifeCycleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WuYuying/week3/demo/LifeCycleServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WuYuying/week3/demo/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WuYuying/week3/demo/RegisterServlet.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +33,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -40,7 +47,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectId" id="2dlEeBo9oS0X3C8mAQqMDfBU3GE" />
+  <component name="ProjectId" id="2e7QdfulZiGLteVv4d4tdL6Js04" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,6 +55,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -58,13 +66,15 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -78,7 +88,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="a397338a-f00a-45db-848f-98fc8fe16e2f" />
+        <option name="BASE_DIRECTORY_NAME" value="807d4749-2b9c-4f24-a7ef-933d261a384d" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -111,16 +121,28 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1dbb3c58-c057-47de-92aa-628d7b34677a" name="Default Changelist" comment="" />
-      <created>1710574359158</created>
+      <changelist id="bf244841-460f-42b6-bf08-f8da64c3dac7" name="Default Changelist" comment="" />
+      <created>1711253226955</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1710574359158</updated>
-      <workItem from="1710574362549" duration="7898000" />
+      <updated>1711253226955</updated>
+      <workItem from="1711253230354" duration="16707000" />
+      <workItem from="1711348372817" duration="12874000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

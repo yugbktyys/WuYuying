@@ -6,11 +6,11 @@ import java.io.IOException;
 
 public class LifeCycleServlet extends HttpServlet {
 
-    public LifeCycleServlet(){
+    public LifeCycleServlet() {
         System.out.println("i am in constructor --> LifeCycleServlet() ");
     }
 
-    public void init(){
+    public void init() {
         System.out.println("i am in init() ");
     }
 
@@ -23,7 +23,8 @@ public class LifeCycleServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
     }
-    public void destroy(){
+
+    public void destroy() {
         System.out.println("i am in destroy()");
     }
 }

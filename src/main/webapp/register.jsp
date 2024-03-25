@@ -1,4 +1,5 @@
-<%--
+<%@ page import="com.WuYuying.week3.demo.RegisterServlet" %>
+<%@ page import="java.util.List" %><%--
   Created by IntelliJ IDEA.
   User: study
   Date: 2024/3/16
@@ -9,15 +10,24 @@
 <html>
 <head>
     <title>Title</title>
+    <style type="text/css">
+        ul{
+            list-style: none;
+        }
+        li{padding: 5px;}
+    </style>
 </head>
 <body>
+
     <form method="post" action="register">
-        username<input type="text" name="username"/><br/>
-        password<input type="password" name="password"/><br/>
-        email<input type="text" name="email"/><br/>
-        gender<input type="radio" name="gender" value="male">Male <input type="radio" name="gender" value="female">Female<br/>
-        Date of Birth :<input type="text name" name="birthdate"><br/>
-        <input type="submit" value="Register"/>
-    </form>
+    ID<input type="text" name="id"/><br/>
+    UserName<input type="text" name="username"/><br/>
+    Password<input type="password" name="password"/><br/>
+    Email<input type="text" name="email"/><br/>
+    Gender<input type="radio" name="gender" value="male">Male <input type="radio" name="gender" value="female">Female<br/>
+    BirthDate :<input type="text name" name="birthdate"><br/>
+    <input type="submit" value="Register"/>
+</form>
+
 </body>
 </html>
