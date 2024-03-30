@@ -13,15 +13,16 @@ import java.sql.SQLException;
 @WebServlet(
         urlPatterns = {"/jdbc"},
         initParams = {
-                @WebInitParam(name="driver", value="com.microsoft.sqlserver.jdbc.SQLServerDriver"),
-                @WebInitParam(name="url", value="jdbc:sqlserver://localhost;databaseName=userdb"),
-                @WebInitParam(name="username", value="sa"),
-                @WebInitParam(name="password", value="11111111"),
-        },loadOnStartup = 1
+                @WebInitParam(name = "driver", value = "com.microsoft.sqlserver.jdbc.SQLServerDriver"),
+                @WebInitParam(name = "url", value = "jdbc:sqlserver://localhost;databaseName=userdb"),
+                @WebInitParam(name = "username", value = "sa"),
+                @WebInitParam(name = "password", value = "11111111"),
+        }, loadOnStartup = 1
 )
 public class JDBCDemoServlet extends HttpServlet {
 
-    Connection con=null;
+    Connection con = null;
+
     @Override
     public void init() throws ServletException {
 
@@ -30,11 +31,11 @@ public class JDBCDemoServlet extends HttpServlet {
         //String username = "sa";
         //String password = "11111111";
 
-        ServletConfig config=getServletConfig();
-        String driver=config.getInitParameter("driver");//<param-name>driver</param-name>
-        String url=config.getInitParameter("url");//<param-name>url</param-name>
-        String username=config.getInitParameter("username");//<param-name>username</param-name>
-        String password=config.getInitParameter("password");//<param-name>password</param-name>
+        ServletConfig config = getServletConfig();
+        String driver = config.getInitParameter("driver");//<param-name>driver</param-name>
+        String url = config.getInitParameter("url");//<param-name>url</param-name>
+        String username = config.getInitParameter("username");//<param-name>username</param-name>
+        String password = config.getInitParameter("password");//<param-name>password</param-name>
 
         try {
             Class.forName(driver);
@@ -50,10 +51,10 @@ public class JDBCDemoServlet extends HttpServlet {
         //connection
         System.out.println("i am in doGet()");//ok
 
-        String sql="select * from usertable";
-        try{
-            ResultSet rs= con.createStatement().executeQuery(sql);
-            while (rs.next()){
+        String sql = "select * from usertable";
+        try {
+            ResultSet rs = con.createStatement().executeQuery(sql);
+            while (rs.next()) {
                 //
             }
         } catch (SQLException throwables) {

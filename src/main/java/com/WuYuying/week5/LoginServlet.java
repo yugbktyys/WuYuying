@@ -1,17 +1,15 @@
-package com.WuYuying.week3.demo;
+package com.WuYuying.week5;
 
 import javax.servlet.*;
-import javax.servlet.annotation.WebInitParam;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
+import javax.servlet.annotation.*;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
 @WebServlet(
-        urlPatterns = {"/register"},
+        urlPatterns = {"/login"},
         initParams = {
                 @WebInitParam(name = "driver", value = "com.microsoft.sqlserver.jdbc.SQLServerDriver"),
                 @WebInitParam(name = "url", value = "jdbc:sqlserver://localhost;databaseName=userdb"),
@@ -22,12 +20,15 @@ import java.util.List;
 )
 
 
-public class RegisterServlet extends HttpServlet {
+//@WebServlet(name = "LoginServlet", value = "/LoginServlet")
+
+
+public class LoginServlet extends HttpServlet {
 
     Connection con = null;
-
     @Override
     public void init() throws ServletException {
+        super.init();
         ServletConfig config = getServletConfig();
         String driver = config.getInitParameter("driver");//<param-name>driver</param-name>
         String url = config.getInitParameter("url");//<param-name>url</param-name>
@@ -44,34 +45,25 @@ public class RegisterServlet extends HttpServlet {
         System.out.println("i am in init()");
     }
 
-
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
         System.out.println("i am in doGet()");
     }
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
         System.out.println("i am in doPost()");
 
 
         String username = request.getParameter("username");
         String password = request.getParameter("password");
-        String email = request.getParameter("email");
-        String gender = request.getParameter("gender");
-        String birthdate = request.getParameter("birthdate");
 
         try {
 
-            String sql = "insert into usertable(username,password,email,gender,birthdate) values(?,?,?,?,?)";
+            String sql = "insert into usertable(username,password) values(?,?)";
             PreparedStatement ps = con.prepareStatement(sql);
             ps.setString(1, username);
             ps.setString(2, password);
-            ps.setString(3, email);
-            ps.setString(4, gender);
-            ps.setString(5, birthdate);
 
             int row = ps.executeUpdate();
             if (row > 0) {
@@ -91,16 +83,12 @@ public class RegisterServlet extends HttpServlet {
             try (ResultSet rs = con.createStatement().executeQuery(sql)) {
 
 
-                List<emp> list = new ArrayList<>();
-                emp info = null;
+                List<emp2> list = new ArrayList<>();
+                emp2 info = null;
                 while (rs.next()) {
-                    info = new emp();
-                    info.setId(rs.getInt("id"));
+                    info = new emp2();
                     info.setUsername(rs.getString("username"));
-                    info.setEmail(rs.getString("email"));
                     info.setPassword(rs.getString("password"));
-                    info.setGender(rs.getString("gender"));
-                    info.setBirthdate(rs.getDate("birthdate"));
                     list.add(info);
                 }
                 request.setAttribute("list", list);
@@ -110,8 +98,10 @@ public class RegisterServlet extends HttpServlet {
             throwables.printStackTrace();
         }
 
-        request.getRequestDispatcher("user-information.jsp").forward(request, response);
+        request.getRequestDispatcher("user-information2.jsp").forward(request, response);
+
+
+
+
     }
-
-
 }

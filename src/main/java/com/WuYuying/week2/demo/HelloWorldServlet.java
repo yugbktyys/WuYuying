@@ -9,12 +9,12 @@ import java.io.PrintWriter;
 public class HelloWorldServlet extends HttpServlet {
 
     public void doGet(HttpServletRequest Request, HttpServletResponse response)
-        throws IOException{
+            throws IOException {
         PrintWriter writer = response.getWriter();
         writer.println("Hello Client!");
     }
 
-    public void doPost(HttpServletRequest Request, HttpServletResponse response){
+    public void doPost(HttpServletRequest Request, HttpServletResponse response) {
 
     }
 }

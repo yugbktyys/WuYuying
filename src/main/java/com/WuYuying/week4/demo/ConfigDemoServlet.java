@@ -9,12 +9,13 @@ import java.io.InputStream;
 import java.io.PrintWriter;
 import java.util.Enumeration;
 import java.util.Properties;
+
 @WebServlet(
         urlPatterns = {"/config"},
         initParams = {
-                @WebInitParam(name="name", value="Wuyuying"),
-                @WebInitParam(name="studentid", value="2022211001000431"),
-        },loadOnStartup = 1
+                @WebInitParam(name = "name", value = "Wuyuying"),
+                @WebInitParam(name = "studentid", value = "2022211001000431"),
+        }, loadOnStartup = 1
 )
 public class ConfigDemoServlet extends HttpServlet {
 
@@ -36,7 +37,6 @@ public class ConfigDemoServlet extends HttpServlet {
     //</servlet-mapping>
 
 
-
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         PrintWriter out = response.getWriter();
@@ -51,6 +51,6 @@ public class ConfigDemoServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-    doGet(request,response);
+        doGet(request, response);
     }
 }

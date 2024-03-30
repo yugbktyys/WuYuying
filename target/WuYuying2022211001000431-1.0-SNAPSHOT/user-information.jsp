@@ -25,20 +25,26 @@
 
 
     <%
-        List<emp> list=(List<emp>) request.getAttribute("list");
-        if(list==null||list.size()<1){
+        List<emp> list = (List<emp>) request.getAttribute("list");
+        if (list == null || list.size() < 1) {
 
-        }else {
-            for(emp info:list){
+        } else {
+            for (emp info : list) {
 
     %>
     <tr>
-        <td><%=info.getId()%></td>
-        <td><%=info.getUsername()%></td>
-        <td><%=info.getPassword()%></td>
-        <td><%=info.getEmail()%></td>
-        <td><%=info.getGender()%></td>
-        <td><%=info.getBirthdate()%></td>
+        <td><%=info.getId()%>
+        </td>
+        <td><%=info.getUsername()%>
+        </td>
+        <td><%=info.getPassword()%>
+        </td>
+        <td><%=info.getEmail()%>
+        </td>
+        <td><%=info.getGender()%>
+        </td>
+        <td><%=info.getBirthdate()%>
+        </td>
     </tr>
     <%
             }
